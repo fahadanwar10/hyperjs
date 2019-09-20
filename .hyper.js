@@ -17,16 +17,7 @@ module.exports = {
     foregroundColor: '',
     backgroundColor: '',
     css: '',
-    termCSS: `
-    x-screen a {
-      color: #f1ca81;
-      text-decoration: none;
-    }
-    x-screen a.hover {
-      background: #3f475a;
-      text-decoration: none;
-    }
-  `,
+    termCSS: '', 
     showHamburgerMenu: true,
     showWindowControls: true,
     padding: '3px 0 0 0',
@@ -122,21 +113,15 @@ module.exports = {
     // for advanced config flags please refer to https://hyper.is/#cfg
   },
 
-  // a list of plugins to fetch and install from npm
-  // format: [@org/]project[#version]
-  // examples:
-  //   `hyperpower`
-  //   `@company/project`
-  //   `project#1.0.1`
   plugins: [
- "hyper-snazzy",
- "hyper-statusline",
- "hyper-tabs-enhanced",
- "hyper-quit",
- "hypercwd",
- "hyperterm-chesterish",
-"hyper-font-smoothing",
-"verminal"
+ 	"hyper-snazzy",
+ 	"hyper-statusline",
+ 	"hyper-tabs-enhanced",
+ 	"hyper-quit",
+ 	"hypercwd",
+ 	"hyperterm-chesterish",
+	"hyper-font-smoothing",
+	"verminal"
   ],
 
   // in development, you can create a directory under
