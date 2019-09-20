@@ -1,0 +1,4 @@
+follow this for zsh-syntax-highlighting : https://medium.com/@tomchristian91/beautiful-hyper-terminal-in-four-steps-9cc012a5573d
+
+
+
